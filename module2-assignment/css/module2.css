@@ -1,0 +1,100 @@
+*{
+	margin:0;
+    padding:0;
+	box-sizing: border-box;
+   } 
+
+body{
+	
+	background-color: #e6e6e6;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.row{
+	width:100%;
+}
+h1{
+	font-size:28px;
+	text-align:center;
+	margin-top: 30px;
+	font-family: 'Mountains of Christmas',cursive;
+}
+
+.moduleSection{
+	position:relative;
+	display:inline-block;
+	float:left;
+	margin:20px;
+	border:1px solid #000;
+	background-color: #b3b3b3;
+}
+.moduleSection> p{
+        padding: 40px 15px 15px 15px;
+}
+
+h2[class="chicken"]{
+	background-color: #f05c79;
+	width:130px;
+	border:1px solid #000;
+	text-align: center;
+	font-size:20px;
+	font-family: 'Mountains of Christmas',cursive;
+	position: absolute;
+	float:right;
+	top:0;
+	right:0;
+}
+h2[class="beef"]{
+	background-color:#ff4d4d;
+	color:#fff;
+	width:130px;
+	border:1px solid #000;
+	text-align: center;
+	font-size:20px;
+	font-family: 'Mountains of Christmas',cursive;
+	position: absolute;
+	float:right;
+	top:0;
+	right:0;
+}
+h2[class="sushi"]{
+	background-color: #ffdb4d;
+	width:130px;
+	border:1px solid #000;
+	text-align: center;
+	font-size:20px;
+	font-family: 'Mountains of Christmas',cursive;
+	position: absolute;
+	float:right;
+	top:0;
+	right:0;
+}
+.moduleSection > p{
+	font-family: 'Mountains of Christmas',cursive;
+	font-size:18px;
+	font-weight:500;
+	margin-top:10px auto;
+    padding: 40px 15px 15px 15px;
+}
+@media screen and (min-width:992px){
+	.col-lg-4{
+		width:33.33%;
+		float:left;
+
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+ .col-md-12 {
+ 	width:100%;
+    float: left;
+}
+.col-md-6 {
+	width:50%;
+    float: left;
+}
+}
+
+@media screen and (max-width:767px){
+	..col-sm-12 {
+    width: 100%;
+ }
+}
